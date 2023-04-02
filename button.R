@@ -1,0 +1,6 @@
+library("dplyr")
+library("tidyverse")
+library("lubridate")
+covid_data<- read_csv("https://www.sharpsightlabs.com/datasets/covid19/covid_data_2020-05-08.csv")
+print(covid_data)
+covid_data %>% print()
